@@ -92,7 +92,7 @@ RECOVERY_SDCARD_ON_DATA := true
 TARGET_USES_MKE2FS := true
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := ExtremeXT_v1
+TW_DEVICE_VERSION := EternityOF_v1
 TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
 TW_MAX_BRIGHTNESS := 25500
@@ -115,3 +115,23 @@ TW_INCLUDE_LPTOOLS := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TW_INCLUDE_FASTBOOTD := true
+
+# OrangeFox specific
+FOX_USE_DATA_RECOVERY_FOR_SETTINGS := 1
+
+# Disable OTA updater
+OF_NO_OTA := 1
+OF_DISABLE_OTA_MENU := 1
+
+# Optional: strip down size even more
+OF_NO_TREBLE_COMPATIBILITY_CHECK := 1
+OF_NO_MIUI_PATCH_WARNING := 1
+OF_NO_SAMSUNG_SPECIAL := 1
+OF_DISABLE_CUSTOM_THEME := 1
+
+# Samsung Exynos Note 10+ battery
+TW_BATTERY_PATH := "/sys/class/power_supply/battery"
+OF_USE_LEGACY_BATTERY_SERVICES := 1
+# Use LZMA compression for ramdisk
+OF_USE_LZMA_COMPRESSION := 1
+TW_DEFAULT_LANGUAGE := en
