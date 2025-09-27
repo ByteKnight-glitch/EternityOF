@@ -1,4 +1,4 @@
-# TWRP Device Tree for Samsung Galaxy Note 10+ (d2s)
+# OrangeFox Device Tree for Samsung Galaxy Note 10+ (d2s)
 
 ## How to build
 
@@ -9,7 +9,7 @@ This device tree was tested and is fully compatible with [minimal-manifest-twrp]
 2. In the root folder of the fetched repo, clone the device tree:
 
 ```bash
-git clone https://github.com/Ocin4ever/EternityTWRP.git -b d2s device/samsung/d2s
+git clone https://github.com/ByteKnight-glitch/EternityOF.git -b d2s device/samsung/d2s
 ```
 
 3. To build:
@@ -19,6 +19,12 @@ git clone https://github.com/Ocin4ever/EternityTWRP.git -b d2s device/samsung/d2
 lunch twrp_d2s-eng
 mka recoveryimage
 ```
+
+
+
+## Attribution
+This device tree is based on the Eternity TWRP wich is based on the TWRP Open Source Project and has been modified for the Samsung Galaxy Note 10+ (`d2s`).
+
 
 ## Copyright
 
