@@ -23,14 +23,15 @@ mka recoveryimage
 
 
 ## Attribution
-This device tree is based on the Eternity TWRP wich is based on the TWRP Open Source Project and has been modified for the Samsung Galaxy Note 10+ (`d2s`).
+This device tree is based on the Eternity TWRP which is based on the TWRP Open Source Project and has been modified for the Samsung Galaxy Note 10+ (`d2s`).
 
 
 ## Copyright
 
 ```
 #
-# Copyright (C) 2024 The TWRP Open Source Project
+# Copyright (C) 2024 The OrangeFox Recovery Project
+# Portions Copyright (C) 2024 The TWRP Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -38,10 +39,10 @@ This device tree is based on the Eternity TWRP wich is based on the TWRP Open So
 #
 #      http://www.apache.org/licenses/LICENSE-2.0
 #
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+# either express or implied. See the License for the specific
+# language governing permissions and limitations under the License.
 #
 ```
